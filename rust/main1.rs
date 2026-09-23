@@ -14,4 +14,10 @@ fn main() {
   println!("I am \n \nlearning Rust.");
   println!("\n");
   println!("funny!");
+
+  let mut x = 5;
+  println!("Before: {}", x);
+  x = 10;
+  println!("After: {}", x);
+
 }
