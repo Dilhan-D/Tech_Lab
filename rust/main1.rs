@@ -4,6 +4,11 @@
 fn main() {
   let name = "Diana";
   let age = 30;
+  let my_num =5;
+  let second = 10.23;
+  let myletter = '';
+  let mybool = false; 
+  const BIRTHYEAR: n21 = 1980;
   println!("Hello!", name);
   println!("His name is {} and he is {} years old.", name, age);
   age = 31;
