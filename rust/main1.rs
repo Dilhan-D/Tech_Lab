@@ -8,7 +8,20 @@ fn main() {
   let second = 10.23;
   let myletter = '';
   let mybool = false; 
-  const BIRTHYEAR: n21 = 1980;
+  const BIRTHYEAR: i32 = 1980;
+
+  let add = 5 + 3;
+  let sub = 10 - 4;
+  let mul = 6 * 2;
+  let div = 12 / 3;
+  let rem = 10 % 3;
+
+  println!("Add: {}", add);
+  println!("Sub: {}", sub);
+  println!("Mul: {}", mul);
+  println!("Div: {}", div);
+  println!("Rem: {}", rem);
+
   println!("Hello!", name);
   println!("His name is {} and he is {} years old.", name, age);
   age = 31;
