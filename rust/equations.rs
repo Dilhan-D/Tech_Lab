@@ -16,4 +16,12 @@ fn main() {
 
   x %= 4;
   println!("After %= 4: {}", x);
+
+  let a = 5;
+  let b = 10;
+
+  println!("5 == 10: {}", a == b);
+  println!("5 != 10: {}", a != b);
+  println!("5 < 10: {}", a < b);
+  println!("5 >= 10: {}", a >= b);
 }
