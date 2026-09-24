@@ -24,4 +24,8 @@ fn main() {
   println!("5 != 10: {}", a != b);
   println!("5 < 10: {}", a < b);
   println!("5 >= 10: {}", a >= b);
+
+ // &&	AND	true if both values are true
+ // ||	OR	true if at least one is true
+ // !	NOT	inverts the boolean value
 }
